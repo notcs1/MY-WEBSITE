@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Switch Background Color</title>
+<style>
+  body {
+    transition: background-color 1s ease; /* Add smooth transition effect */
+  }
+</style>
+</head>
+<body>
+  <script>
+    // Define an array of colors
+    var colors = ['#ff6347', '#4682b4', '#32cd32', '#8a2be2', '#ffa500'];
+    var currentIndex = 0;
+
+    // Function to change background color
+    function changeColor() {
+      document.body.style.backgroundColor = colors[currentIndex];
+      currentIndex = (currentIndex + 1) % colors.length;
+    }
+
+    // Change color every 2 seconds (2000 milliseconds)
+    setInterval(changeColor, 2000);
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+<body style="background-color: #add8e6;">
+<html>
+<head>
+<title> ok</title>
+</head>
+<body>
+<center><h1>Contact Us</h1></center>
+<center><a href=index.html>Home</a> <a href=index.html>Profile</a> <a href=index.html>Contact Us</a> <a href=index.html>Portofolio</a></center>
+<img src=Picture1.png> 
+</body>
+<html>
